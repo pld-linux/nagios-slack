@@ -2,7 +2,7 @@
 Summary:	Nagios/Icinga Slack integration
 Name:		nagios-slack
 Version:	1.1
-Release:	0.3
+Release:	0.4
 License:	Apache v2.0
 Group:		Networking
 Source0:	https://raw.github.com/tinyspeck/services-examples/master/nagios.pl
@@ -11,6 +11,7 @@ Source1:	slack_nagios.cfg
 URL:		https://slack.com/apps/A0F81R747-nagios
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.654
+Requires:	perl-LWP-Protocol-https
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
