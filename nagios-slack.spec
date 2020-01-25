@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Nagios/Icinga Slack integration
 Name:		nagios-slack
 Version:	1.1
